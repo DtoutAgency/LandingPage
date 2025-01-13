@@ -75,7 +75,7 @@ const Clients = () => {
             once:true,
           }}
           className="text-gray-900 text-2xl md:text-4xl font-semibold pb-5">
-            Clients we have worked for
+          Our Clients
           </motion.h2>
         </div>
         <motion.div 

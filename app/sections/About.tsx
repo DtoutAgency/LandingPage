@@ -14,6 +14,7 @@ const About = () => {
         whileInView={{
           x:0,
           opacity:1,
+        
         }}
         transition={{
           duration:0.6,
@@ -25,7 +26,7 @@ const About = () => {
         
         
         className="mx-10 md:mx-0 text-gray-900 text-2xl md:text-4xl font-semibold pb-5">
-          About
+          About Us
         </motion.h2>
         {/* Content Section */}
         <div className="flex flex-col md:flex-row justify-center items-center gap-y-10 gap-x-20 mx-10 md:mx-0">
@@ -76,8 +77,8 @@ const About = () => {
           viewport={{
             once:true,
           }}
-          className="w-[550px] md:w-[600px] space-y-3">
-            <p className="text-gray-700 text-md">
+          className="md:w-[600px] space-y-3">
+            <p className="text-gray-700 text-md ">
               At Dtout Agency, we are a results-driven digital marketing agency that partners exclusively with dental clinics to help them grow and thrive. Our mission is to empower clinics with tailored marketing strategies that attract high-quality patient leads, boost revenue, and establish long-term success in a competitive market.
             </p>
             <p className="text-gray-700 text-md">
