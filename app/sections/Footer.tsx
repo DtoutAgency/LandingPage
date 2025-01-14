@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="flex-col gap-y-3">
         <h3 className="text-white/50 text-sm pb-2">Contact Info</h3>
         <div className="md:w-[500px]">
-          <h2 className="text-white text-4xl">Helping Dental Practices Grow and Succeed in the Digital Era</h2>
+          <h2 className="text-white text-2xl md:text-4xl">Helping Dental Practices Grow and Succeed in the Digital Era</h2>
         </div>
       </div>
       
