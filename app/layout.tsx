@@ -9,7 +9,7 @@ const pop = Poppins({weight:["400"],subsets:['latin'] });
 
 export const metadata = {
   title: "Dtout Agency - Book Now",
-  description: "Landing Page for Dtout Agency",
+  description: "At Dtout Agency, we are dedicated to helping dental clinics achieve exceptional growth through tailored digital marketing strategies.",
   icons: {
     icon: "/icon.png",
   }

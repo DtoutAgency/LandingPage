@@ -15,9 +15,9 @@ export default function Home() {
         <title>Dtout Agency</title>
         <meta property="og:title" content="Dtout Agency" />
         <meta property="og:description" content="At Dtout Agency, we are dedicated to helping dental clinics achieve exceptional growth through tailored digital marketing strategies."/>
-        <meta property="og:image" content="/Img/Dtout_logo.png" />
+        <meta property="og:image" content="https://dtoutagency.vercel.app/Img/Dtout_logo.png" />
         <meta property="og:url" content="https://dtoutagency.vercel.app" />
-        <meta property="og:type" content="website" />
+        <meta property="og:type" content="Website" />
       </Head>
 
 
