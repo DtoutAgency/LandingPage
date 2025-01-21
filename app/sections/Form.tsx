@@ -6,7 +6,10 @@ import {motion} from 'framer-motion';
 
 
 
+
 const Form = () => {
+
+
   const IconData = [
     {
       icon:<FaFacebookF/>,
@@ -115,6 +118,7 @@ const Form = () => {
           }}
           >
             <form
+              
               className="flodesk-form flex flex-col gap-y-5 justify-center"
               action="https://form.flodesk.com/forms/677bf107d9e8e194244fe00d/submit"
               method="post"
@@ -155,6 +159,11 @@ const Form = () => {
               
               <div className="flex flex-row w-full justify-center mt-4">
                   <button
+                  onClick={()=>{
+                    if (typeof window !== 'undefined' && window.fbq) {
+                      window.fbq('track', 'ClickHeroButton'); 
+                    }
+                  }}
                     type="submit"
                     className=" bg-primary text-white px-6 py-3 rounded-md hover:bg-primary-dark"
                   >
