@@ -14,21 +14,6 @@ export const metadata = {
   icons: {
     icon: "/icon.png",
   },
-  openGraph: {
-    url: "https://dtoutagency.vercel.app/",
-    type: "website",
-    title: "Dtout Agency - Book Now",
-    description: "At Dtout Agency, we are dedicated to helping dental clinics achieve exceptional growth through tailored digital marketing strategies.",
-    image: "https://opengraph.b-cdn.net/production/images/8bfed5a0-5f95-4d4d-b678-d10bca468963.png?token=iTkb6y96WvB5Eswxfy33QFgDZck-HnV6Uir_Z7eaAzg&height=500&width=500&expires=33272851741",
-  },
-  twitter: {
-    card: "summary_large_image",
-    domain: "dtoutagency.vercel.app",
-    url: "https://dtoutagency.vercel.app/",
-    title: "Dtout Agency - Book Now",
-    description: "At Dtout Agency, we are dedicated to helping dental clinics achieve exceptional growth through tailored digital marketing strategies.",
-    image: "https://opengraph.b-cdn.net/production/images/8bfed5a0-5f95-4d4d-b678-d10bca468963.png?token=iTkb6y96WvB5Eswxfy33QFgDZck-HnV6Uir_Z7eaAzg&height=500&width=500&expires=33272851741",
-  },
 };
 
 export default function RootLayout({
@@ -38,6 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <>
+    
     <Script
         id="meta-pixel"
         strategy="afterInteractive"
@@ -51,12 +37,33 @@ export default function RootLayout({
             t.src=v;s=b.getElementsByTagName(e)[0];
             s.parentNode.insertBefore(t,s)}(window, document,'script',
             'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', 'YOUR_PIXEL_ID');
+            fbq('init', '517991158551582');
             fbq('track', 'PageView');
           `,
         }}
       />
     <html lang="en">
+      <head>
+  
+       <title>Dtout Agency - Book Now</title>
+        <meta name="description" content="At Dtout Agency, we are dedicated to helping dental clinics achieve exceptional growth through tailored digital marketing strategies."></meta>
+
+          <meta property="og:url" content="https://dtoutagency.com"></meta>
+          <meta property="og:type" content="website"></meta>
+          <meta property="og:title" content="Dtout Agency - Book Now"></meta>
+          <meta property="og:description" content="At Dtout Agency, we are dedicated to helping dental clinics achieve exceptional growth through tailored digital marketing strategies."></meta>
+          <meta property="og:image" content="https://opengraph.b-cdn.net/production/images/49ea45a7-7bc5-4c6f-9b2f-8e705953557a.png?token=Q2wYM4tQE5TyNHwSRdFwKHqzAbVQ9RJXCuHX-ANq7GI&height=500&width=500&expires=33273560962"></meta>
+
+
+          <meta name="twitter:card" content="summary_large_image"></meta>
+          <meta property="twitter:domain" content="dtoutagency.com"></meta>
+          <meta property="twitter:url" content="https://dtoutagency.com"></meta>
+          <meta name="twitter:title" content="Dtout Agency - Book Now"></meta>
+          <meta name="twitter:description" content="At Dtout Agency, we are dedicated to helping dental clinics achieve exceptional growth through tailored digital marketing strategies."></meta>
+          <meta name="twitter:image" content="https://opengraph.b-cdn.net/production/images/49ea45a7-7bc5-4c6f-9b2f-8e705953557a.png?token=Q2wYM4tQE5TyNHwSRdFwKHqzAbVQ9RJXCuHX-ANq7GI&height=500&width=500&expires=33273560962"></meta>
+
+
+      </head>
       <body
         className={`${pop.className} bg-white antialiased`}
       >

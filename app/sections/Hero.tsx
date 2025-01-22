@@ -53,7 +53,7 @@ const Hero = () => {
               initial="hidden"
               animate="visible"
             >
-              {`Results Guaranteed or 2 Months Free – Limited Offer Ends January 20! 🦷`.split(" ").map((word, index) => (
+              {`Results in a month or free - Offer Ends Early 🦷`.split(" ").map((word, index) => (
                 <motion.span key={index} variants={wordVariants} className="inline-block">
                   {word}&nbsp;
                 </motion.span>
