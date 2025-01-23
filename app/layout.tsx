@@ -2,11 +2,12 @@
 import { Poppins} from "next/font/google";
 import "./globals.css";
 import Script from 'next/script';
-
+import ReactGA from 'react-ga4'
 
 
 const pop = Poppins({weight:["400"],subsets:['latin'] });
-
+ReactGA.initialize('G-R7S7TQ8MN5'); 
+ReactGA.send('pageview');
 
 export const metadata = {
   title: "Dtout Agency - Book Now",
