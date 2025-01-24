@@ -12,6 +12,7 @@ ReactGA.send('pageview');
 export const metadata = {
   title: "Dtout Agency - Book Now",
   description: "At Dtout Agency, we are dedicated to helping dental clinics achieve exceptional growth through tailored digital marketing strategies.",
+  keywords:"Dental Digital Marketing USA, Digital Marketing,Clinic Marketing, Marketing Service, Marketing Strategies",
   icons: {
     icon: "/icon.png",
   },
@@ -48,12 +49,12 @@ export default function RootLayout({
   
        <title>Dtout Agency - Book Now</title>
         <meta name="description" content="At Dtout Agency, we are dedicated to helping dental clinics achieve exceptional growth through tailored digital marketing strategies."></meta>
-
+          <meta property = "keywords" content="agency"/>
           <meta property="og:url" content="https://dtoutagency.com"></meta>
           <meta property="og:type" content="website"></meta>
           <meta property="og:title" content="Dtout Agency - Book Now"></meta>
           <meta property="og:description" content="At Dtout Agency, we are dedicated to helping dental clinics achieve exceptional growth through tailored digital marketing strategies."></meta>
-          <meta property="og:image" content="https://opengraph.b-cdn.net/production/images/49ea45a7-7bc5-4c6f-9b2f-8e705953557a.png?token=Q2wYM4tQE5TyNHwSRdFwKHqzAbVQ9RJXCuHX-ANq7GI&height=500&width=500&expires=33273560962"></meta>
+          <meta property="og:image" content="/Dtout_logo.png"></meta>
 
 
           <meta name="twitter:card" content="summary_large_image"></meta>
@@ -61,8 +62,7 @@ export default function RootLayout({
           <meta property="twitter:url" content="https://dtoutagency.com"></meta>
           <meta name="twitter:title" content="Dtout Agency - Book Now"></meta>
           <meta name="twitter:description" content="At Dtout Agency, we are dedicated to helping dental clinics achieve exceptional growth through tailored digital marketing strategies."></meta>
-          <meta name="twitter:image" content="https://opengraph.b-cdn.net/production/images/49ea45a7-7bc5-4c6f-9b2f-8e705953557a.png?token=Q2wYM4tQE5TyNHwSRdFwKHqzAbVQ9RJXCuHX-ANq7GI&height=500&width=500&expires=33273560962"></meta>
-
+          <meta name="twitter:image" content="/Dtout_logo.png"></meta>
 
       </head>
       <body

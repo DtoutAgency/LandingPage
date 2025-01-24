@@ -25,8 +25,8 @@ const Hero = () => {
   };
 
   const wordVariants = {
-    hidden: { opacity: 0, y: -120 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
+    hidden: { opacity: 0, x: 220 },
+    visible: { opacity: 1, x: 0, transition: { duration: 0.5 } },
   };
 
   return (
@@ -41,19 +41,19 @@ const Hero = () => {
             className="flex flex-row pb-1"
           >
             <h3 className="text-gray-500 text-sm md:text-lg rounded">
-              Limited - Time Offer: Only 5 spots Left
+            Only 5 Spots Left for Our Proven Growth Program!
             </h3>
           </motion.div>
 
           {/* Animate text line by line */}
-          <div>
+          <div className="pb-10">
             <motion.h2
               className="text-gray-950 leading-10 md:leading-tight text-3xl md:text-7xl font-normal"
               variants={sentenceVariants}
               initial="hidden"
               animate="visible"
             >
-              {`Results in a month or free - Offer Ends Early 🦷`.split(" ").map((word, index) => (
+              {`More Patients . More Revenue 🦷. Less Stress – Let’s Make It Happen Now! `.split(" ").map((word, index) => (
                 <motion.span key={index} variants={wordVariants} className="inline-block">
                   {word}&nbsp;
                 </motion.span>
@@ -66,16 +66,16 @@ const Hero = () => {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ duration: 0.1, ease: "easeIn" }}
+              transition={{ duration: 0.6, ease: "easeIn" }}
               viewport={{ once: true }}
               whileHover={{ scale: 1.2 }}
               className="py-4 flex flex-col justify-center items-center"
             >
               <PopupButton
-                className="bg-primary text-lg px-7 py-5 rounded-md cursor-pointer text-white text-md"
+                className="bg-primary text-lg px-5 py-3 md:px-7 md:py-5 rounded-md cursor-pointer text-white text-md"
                 url="https://calendly.com/dtoutagency/free-consultation-call?month=2025-01"
                 rootElement={document.getElementById("root") ?? document.body}
-                text="Schedule A Call"
+                text="Schedule Your Free Strategy Call, Now!"
               />
             </motion.div>
           )}
@@ -89,7 +89,7 @@ const Hero = () => {
             >
               <Image
                 className="rounded-md w-[1200px] h-auto"
-                src="/Img/Clinic.png"
+                src="/Img/a.png"
                 alt="Clinic Image"
                 width={1000}
                 height={1000}

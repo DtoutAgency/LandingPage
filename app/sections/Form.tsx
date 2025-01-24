@@ -53,9 +53,9 @@ const Form = () => {
               <h3 className="text-gray-500 text-sm md:text-lg rounded pb-3">
                 Connect With Us
               </h3>
-              <div className="w-[300px] md:w-[600px]">
-                <h1 className="text-gray-900 text-2xl md:text-4xl font-semibold">
-                  Grow your clinic with proven Digital Marketing Solutions
+              <div className="w-[400px] md:w-[800px]">
+                <h1 className="text-gray-900 text-2xl md:text-4xl font-semibold leading-snug">
+                 Unlock Expert Tips to Attract More Patients, Boost Revenue, and Scale Your Clinic – Subscribe Now!
                 </h1>
               </div>
             </motion.div>
@@ -167,7 +167,7 @@ const Form = () => {
                     type="submit"
                     className=" bg-primary text-white px-6 py-3 rounded-md hover:bg-primary-dark"
                   >
-                   Subscribe Now
+                  Access Proven Strategies
                   </button>
               </div>
             </form>

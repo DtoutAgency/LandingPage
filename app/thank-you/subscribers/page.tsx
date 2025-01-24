@@ -42,8 +42,7 @@ const Page = () => {
             </div>
 
             <p className="text-gray-500 text-lg md:text-xl w-[90%] md:w-[700px]">
-              We&apos;ve sent your free report to your inbox so it&apos;s easy to access. You can find more
-              information on our own website and social media pages.
+            Thank You for Subscribing! Your actionable tips are on their way to your inbox. I’m here to help you grow your dental clinic. Book Your Free Consultation Call Now.
             </p>
           </div>
 

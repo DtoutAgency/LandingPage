@@ -25,7 +25,7 @@ const About = () => {
         }}
         
         
-        className="mx-10 md:mx-0 text-gray-900 text-2xl md:text-4xl font-semibold pb-5">
+        className="mx-10 md:mx-0 text-gray-900 text-2xl md:text-4xl font-semibold pb-10">
           About Us
         </motion.h2>
         {/* Content Section */}
@@ -51,11 +51,11 @@ const About = () => {
             <Image
               alt="About Us"
               loading="lazy"
-              width={500}
-              height={500}
+              width={420}
+              height={300}
               decoding="async"
-              src="/Img/About.png"
-              className="rounded-md"
+              src="/Dtout_logo.png"
+              className="rounded-md "
             />
           </motion.div>
           {/* Text Content */}
