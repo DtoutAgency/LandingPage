@@ -72,7 +72,7 @@ const Hero = () => {
               className="py-4 flex flex-col justify-center items-center"
             >
               <PopupButton
-                className="bg-primary text-lg px-5 py-3 md:px-7 md:py-5 rounded-md cursor-pointer text-white text-md"
+                className="bg-primary text-xs md:text-lg px-5 py-3 md:px-7 md:py-5 rounded-md cursor-pointer text-white text-md"
                 url="https://calendly.com/dtoutagency/free-consultation-call?month=2025-01"
                 rootElement={document.getElementById("root") ?? document.body}
                 text="Schedule Your Free Strategy Call, Now!"

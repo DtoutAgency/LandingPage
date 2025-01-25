@@ -13,27 +13,27 @@ const Services = () => {
     {
       title: "Meta Ads Management",
       description: "Run targeted Facebook and Instagram campaigns that attract high-quality patient leads.",
-      iconSrc: <FaMeta size={100} className="text-primary"/>
+      iconSrc: <FaMeta size={100} className="text-primary w[42px] h-[42px] md:w[100px] md:h-[100px]"/>
     },
     {
       title: "Lead Generation",
       description: "Implement proven strategies to consistently bring in qualified patient inquiries.",
-      iconSrc: <MdGroup size={100} className="text-primary"/>
+      iconSrc: <MdGroup size={100} className="text-primary w[42px] h-[42px] md:w[100px] md:h-[100px]"/>
     },
     {
       title: "Email Marketing and Conversion",
       description: "Nurture leads with personalized email workflows, converting them into loyal patients.",
-      iconSrc: <IoMdGitNetwork size={100} className="text-primary"/>
+      iconSrc: <IoMdGitNetwork size={100} className="text-primary w[42px] h-[42px] md:w[100px] md:h-[100px]"/>
     },
     {
       title: "Sales Funnel Creation",
       description: "Create optimized sales funnels that guide patients from interest to booking their appointment.",
-      iconSrc:<BsGraphUpArrow size={100} className="text-primary"/>
+      iconSrc:<BsGraphUpArrow size={100} className="text-primary w[42px] h-[42px] md:w[100px] md:h-[100px]"/>
     },
     {
       title: "Landing Page Optimization",
       description: "Design professional, high-converting landing pages that capture and convert leads effectively.",
-      iconSrc: <CgWebsite size={100} className="text-primary"/>
+      iconSrc: <CgWebsite size={100} className="text-primary w[42px] h-[42px] md:w[100px] md:h-[100px]"/>
     }
   ]
   

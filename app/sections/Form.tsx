@@ -29,7 +29,7 @@ const Form = () => {
       <div className="container mx-auto">
         <div className="flex flex-col justify-start mx-10 md:mx-0">
           {/* Header Section */}
-          <div className="flex flex-row justify-between items-center pb-10">
+          <div className="flex flex-col md:flex-row justify-between gap-y-10 gap-x-4 items-center pb-10">
 
             {/* Right Side */}
             <motion.div
@@ -53,8 +53,8 @@ const Form = () => {
               <h3 className="text-gray-500 text-sm md:text-lg rounded pb-3">
                 Connect With Us
               </h3>
-              <div className="w-[400px] md:w-[800px]">
-                <h1 className="text-gray-900 text-2xl md:text-4xl font-semibold leading-snug">
+              <div className=" md:w-[800px]">
+                <h1 className="text-gray-900 text-lg md:text-4xl font-semibold leading-snug">
                  Unlock Expert Tips to Attract More Patients, Boost Revenue, and Scale Your Clinic – Subscribe Now!
                 </h1>
               </div>
@@ -83,7 +83,7 @@ const Form = () => {
 
 
             
-            className="flex flex-col gap-y-6">
+            className="flex flex-row md:flex-col gap-x-10 md:gap-x-0 gap-y-6">
               {IconData.map((currentElement, index) => (
                 <a target="_blank" key={index} href={currentElement.linkref}>
                 <div className="flex flex-row justify-center items-center">
