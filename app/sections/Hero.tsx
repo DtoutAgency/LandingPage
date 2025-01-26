@@ -66,7 +66,7 @@ const Hero = () => {
             <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
-              transition={{ duration: 0.6, ease: "easeIn" }}
+              transition={{ duration: 0.1, ease: "easeIn" }}
               viewport={{ once: true }}
               whileHover={{ scale: 1.2 }}
               className="py-4 flex flex-col justify-center items-center"
