@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { PopupButton } from 'react-calendly';
 import { FaFacebookF, FaLinkedin, FaThumbsUp, FaWhatsapp } from 'react-icons/fa';
+import ReactGA from 'react-ga4'
 
 const Page = () => {
   const [isBrowser, setIsBrowser] = useState(false);
@@ -9,6 +10,11 @@ const Page = () => {
   useEffect(() => {
     // Check if the code is running on the client-side
     setIsBrowser(typeof window !== 'undefined');
+    ReactGA.event(window.location.pathname)
+    if (typeof window !== 'undefined' && window.fbq) {
+      // Example: Track a custom event
+      window.fbq('track', 'Thank you Page Tracker');
+    }
   }, []);
 
   const IconData = [
