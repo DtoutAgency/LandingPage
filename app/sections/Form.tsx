@@ -161,7 +161,7 @@ const Form = () => {
                   <button
                   onClick={()=>{
                     if (typeof window !== 'undefined' && window.fbq) {
-                      window.fbq('track', 'ClickHeroButton'); 
+                      window.fbq('track', 'Flodesk Form Submission'); 
                     }
                   }}
                     type="submit"
